@@ -1,0 +1,258 @@
+[
+  {
+    "ContainingType": "ModuleAPI.Controllers.AutenticacaoController",
+    "Method": "AutenticarUsuario",
+    "RelativePath": "Autenticacao/AutenticarUsuario",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "login",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "senha",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ModuleAPI.Controllers.AutenticacaoController",
+    "Method": "AdicionarCliente",
+    "RelativePath": "Autenticacao/CadastrarUsuario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "ModuleAPI.Entities.Usuario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ModuleAPI.Controllers.ClienteController",
+    "Method": "AdicionarCliente",
+    "RelativePath": "Cliente/AdicionarCliente",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cliente",
+        "Type": "ModuleAPI.Entities.Cliente",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ModuleAPI.Controllers.ClienteController",
+    "Method": "ConsultarListaClientes",
+    "RelativePath": "Cliente/ConsultarListaClientes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ModuleAPI.Controllers.ClienteController",
+    "Method": "ConsultarListaClientesPorId",
+    "RelativePath": "Cliente/ConsultarListaClientesPorId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ModuleAPI.Controllers.ClienteController",
+    "Method": "ConsultarListaClientesPorNome",
+    "RelativePath": "Cliente/ConsultarListaClientesPorNome",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Nome",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ModuleAPI.Controllers.ClienteController",
+    "Method": "DeletarCliente",
+    "RelativePath": "Cliente/DeletarCliente",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ModuleAPI.Controllers.ClienteController",
+    "Method": "RetificarCliente",
+    "RelativePath": "Cliente/RetificarCliente",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "clienteAlterado",
+        "Type": "ModuleAPI.Entities.Cliente",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ModuleAPI.Controllers.TreinoController",
+    "Method": "AdicionarExercicio",
+    "RelativePath": "Treino/AdicionarExercicio",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "exercicio",
+        "Type": "ModuleAPI.Entities.Exercicio",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ModuleAPI.Controllers.TreinoController",
+    "Method": "AdicionarExercicioFicha",
+    "RelativePath": "Treino/AdicionarExercicioFicha",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "FichaId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ExercicioId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Series",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Repeticoes",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Carga",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "Observacao",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ModuleAPI.Controllers.TreinoController",
+    "Method": "AlterarExercicio",
+    "RelativePath": "Treino/AlterarExercicio",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ModuleAPI.Controllers.TreinoController",
+    "Method": "ConsultarExercicios",
+    "RelativePath": "Treino/ConsultarExercicios",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ModuleAPI.Controllers.TreinoController",
+    "Method": "ConsultarFichas",
+    "RelativePath": "Treino/ConsultarFichas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UsuarioId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ModuleAPI.Controllers.TreinoController",
+    "Method": "CriarFicha",
+    "RelativePath": "Treino/CriarFicha",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "FichaNome",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UsuarioId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ModuleAPI.Controllers.TreinoController",
+    "Method": "DeletarExercicio",
+    "RelativePath": "Treino/DeletarExercicio",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
